@@ -1,0 +1,83 @@
+body {
+	background: #B3E5FC;
+	font-family: Arial;
+	padding: 20px;
+}
+
+h2 {
+	position: relative;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+form {
+	max-width: 370px;
+	margin: 0 auto; /*center*/
+	background-color: #80D8FF;
+	padding: 20px;
+	border-radius: 30px;
+	border: 2px solid white;
+}
+
+.combobox1, 
+.combobox2 {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.first_year,
+.last_year {
+	margin-left: 30px;
+}
+
+#submit {
+	margin-left: 150px;
+}
+
+.result {
+	text-align: center;
+}
+
+h4{
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.period_info > p {
+	margin-left: 30px;
+}
+
+.calc {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	font-weight: bold;
+}
+
+a {
+	background-color: #80D8FF;
+	color: black;
+	text-decoration:  none;
+	padding: 15px;
+	border-radius: 30px;
+	border: 2px solid white;
+}
+
+a:hover {
+	background-color: white;
+
+}
+
+td,
+th {
+	 border: 1px solid black;
+	 padding: 15px;
+}
+
+table {
+	border: 1px solid white;
+	max-width:1000px;
+	padding: 20px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}

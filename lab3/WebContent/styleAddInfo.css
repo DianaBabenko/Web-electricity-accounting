@@ -1,0 +1,78 @@
+body {
+	background: #DCEDC8;
+	font-family: Arial;
+	padding: 20px;
+}
+
+h2 {
+	position: relative;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+form {
+	max-width: 320px;
+	margin: 0 auto; /*center*/
+	background-color: #C8E6C9;
+	padding: 20px;
+	border-radius: 30px;
+	border: 2px solid white;
+}
+
+
+.combobox,
+.prev_result,
+.curr_result,
+.price {
+	margin-bottom: 20px;
+}
+
+#combobox,
+#prev_result,
+#curr_result,
+#price {
+	width: 70px;
+	background-color: #EEEEEE;
+}
+
+#combobox:focus,
+#prev_result:focus,
+#curr_result:focus,
+#price:focus {
+	border-color: green;
+	background-color: white;
+}
+
+.combobox {
+	display: flex;
+}
+
+.month {
+	margin-right: 30px;
+}
+
+
+#submit {
+	margin-left: 120px;
+}
+
+p {
+	margin-top: 50px;
+	margin-bottom:60px;
+	font-weight: bold;
+}
+
+a {
+	background-color: #C8E6C9;
+	color: black;
+	text-decoration:  none;
+	padding: 20px;
+	border-radius: 30px;
+	border: 2px solid white;
+}
+
+a:hover {
+	background-color: white;
+
+}
